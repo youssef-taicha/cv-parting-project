@@ -1,4 +1,4 @@
-# 🎯 CV Parser Engine — Privacy-First Intelligent Resume Parsing SaaS
+#  CV Parser Engine — Privacy-First Intelligent Resume Parsing SaaS
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -12,7 +12,7 @@
 
 ---
 
-## 🌟 Key Highlights
+##  Key Highlights
 
 - **Multi-Format Ingestion**: High-throughput parsing for `.pdf` and `.docx` documents via PyMuPDF and python-docx.
 - **Language Detection**: Automatic language classification (French, English, Arabic) powered by `langdetect`.
@@ -37,7 +37,7 @@
 
 ---
 
-## 🏗️ System Architecture (8-Stage, 3-Layer Pipeline)
+##  System Architecture (8-Stage, 3-Layer Pipeline)
 
 ```
 [Uploaded CV File (.pdf / .docx)]
@@ -74,7 +74,7 @@
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -88,7 +88,7 @@
 
 ---
 
-## 🚀 Quickstart Guide
+##  Quickstart Guide
 
 ### Prerequisites
 - **Python**: `3.11.x`
@@ -168,7 +168,7 @@ docker compose up -d
 
 ---
 
-## 🧪 Running Automated Tests
+##  Running Automated Tests
 
 The test suite covers PII detection, masking security gates, spaCy NER parsing on French/English resumes, batch ZIP ingestion, and candidate search endpoints:
 
@@ -183,7 +183,7 @@ Output:
 
 ---
 
-## 📡 API Reference Endpoints
+##  API Reference Endpoints
 
 | Method | Endpoint | Description | Payload / Parameters |
 | :--- | :--- | :--- | :--- |
@@ -194,7 +194,7 @@ Output:
 
 ---
 
-## 🔒 Privacy, CNDP & GDPR Compliance
+##  Privacy, CNDP & GDPR Compliance
 
 This project was engineered from the ground up to respect data privacy regulations, specifically the Moroccan **Loi n° 09-08** (supervised by the **CNDP**) and European **GDPR**:
 - **Reversible Tokenization**: Sensitive candidate identifiers are substituted by deterministic tokens (`[NOM_1]`, `[EMAIL_1]`, etc.).
@@ -205,7 +205,7 @@ This project was engineered from the ground up to respect data privacy regulatio
 
 ---
 
-## 🎓 Academic & Internship Context
+##  Academic & Internship Context
 
 - **Developer**: Youssef Taicha
 - **Program**: DUT Génie Informatique — École Supérieure de Technologie de Meknès (ESTM), Université Moulay Ismaïl (UMI)
@@ -214,6 +214,6 @@ This project was engineered from the ground up to respect data privacy regulatio
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
